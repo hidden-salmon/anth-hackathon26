@@ -1,6 +1,6 @@
 # P2P Amber Alert Network over Bitchat
 
-## Context
+## Background
 
 NGOs operating in warzones need to broadcast missing-person ("amber") alerts to civilians whose phones often have no working cellular or internet. **Bitchat** (Jack Dorsey's BLE mesh app, with Nostr fallback) gives those phones a way to talk to each other without infrastructure: messages hop phone-to-phone over Bluetooth (up to 7 hops), end-to-end encrypted via the Noise Protocol, and fall back to Nostr relays whenever any node has internet.
 
